@@ -3,7 +3,7 @@ package main;
 import java.sql.*;
 import java.util.Scanner;
 
-public class main {
+public class Main {
 	
 	public String url = "jdbc:mysql://localhost:3306/database";
 	public String user = "Zylox";
@@ -35,16 +35,16 @@ public class main {
 	public static void main(String[] args) {
 		
 		
-		main conn = new main();
+		Main conn = new Main();
 		
-		System.out.println("Name?");
-		 name = in.next();
-		System.out.println("Age?");
-		 age = in.nextInt();
-		System.out.println("Food?");
-		 food = in.next();
-		System.out.println("Hobby?");
-		 hobby = in.next();		
+//		System.out.println("Name?");
+//		 name = in.next();
+//		System.out.println("Age?");
+//		 age = in.nextInt();
+//		System.out.println("Food?");
+//		 food = in.next();
+//		System.out.println("Hobby?");
+//		 hobby = in.next();		
 		conn.openConnection();
 		
 	}
